@@ -1,8 +1,15 @@
 .col-centered{
-    display:inline-block;
-    float:none;
+    display:inline-block !important;
+    float:none !important;
     /* reset the text-align */
-    text-align:left;
+    text-align:left !important;
     /* inline-block space fix */
-    margin-right:-4px;
+    margin-right:-4px !important;
+}
+.mg-bottom-none{
+  margin-bottom: 0;
+}
+.mg-top-bottom{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

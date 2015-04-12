@@ -13,6 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+//= require bootstrap-sprockets
+
 $(document).ready(function(){
  audiojs.events.ready(function() {
     var as = audiojs.createAll();
