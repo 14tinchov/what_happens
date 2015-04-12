@@ -1,4 +1,13 @@
-<h1>What happens there?</h1>
-<p>We are working...</p>
+<div class="row">
+  <h1>What happens there?</h1>
+  <div class="col-md-5 col-centered">
+    <audio src=<%=@song.sound.url%> preload="auto" />
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-4">
+    <div class="fb-comments" data-numposts="5" data-width="600" data-colorscheme="dark"></div>
+  </div>
+</div>
 
-<audio src=<%=@song.sound.url%> preload="auto" />
+
