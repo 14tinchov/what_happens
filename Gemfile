@@ -5,6 +5,15 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.1'
 gem 'uglifier', '>= 1.3.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'paperclip'
+gem 'paperclip-wav-mp3'
+gem 'aws-sdk'
+
+#Users
+gem 'devise'
+
+#Config vars
+gem "figaro"
 
 #Frontend
 gem 'sass-rails', '~> 5.0'
