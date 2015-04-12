@@ -1,6 +1,6 @@
 class AudiosController < ApplicationController
   before_action :set_audio, only: [:show, :edit, :update, :destroy]
-  before_action :authenticate_user!
+  before_action :authenticate_user!, only: [:edit, :update, :destroy]
 
   def index
     @audios = Audio.all
@@ -18,7 +18,7 @@ class AudiosController < ApplicationController
   end
 
   def create
-    @audio = Audio.new(audio_params)
+    @audio = Audio.new(audio_params,current_user.id)
 
     respond_to do |format|
       if @audio.save

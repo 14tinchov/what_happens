@@ -13,3 +13,12 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.bg-color-title{
+  background-color: #032840 !important;
+}
+.bg-color-item{
+  background-color: #1F5171 !important;
+}
+.border-item{
+  border: 1px solid #55819D !important;
+}
