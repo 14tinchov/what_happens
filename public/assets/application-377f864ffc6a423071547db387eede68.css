@@ -1,4 +1,24 @@
-@charset "UTF-8";/* line 1, /home/xt/Documentos/nasa/wht/app/assets/stylesheets/base/reset.css.scss */
+@charset "UTF-8";//iframe facebook
+.fb_ltr{
+  -webkit-border-radius: 10px !important;
+  -moz-border-radius: 10px !important;
+  border-radius: 10px !important;
+}
+//
+.box-transparent{
+  background-color: rgba(25, 0, 0, 0.5);
+  padding: 5px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+#title-main{
+  font-family: 'Laila', serif !important;
+  text-align: center !important;
+  font-size: 70px;
+}
+/* line 1, /home/xt/Documentos/nasa/wht/app/assets/stylesheets/base/reset.css.scss */
 html, body {
   margin: 0 !important;
   padding: 0 !important;
@@ -17,13 +37,13 @@ html {
 
 /* line 16, /home/xt/Documentos/nasa/wht/app/assets/stylesheets/base/reset.css.scss */
 h1, h2, h3, h4, h5 {
-  font-family: 'Stalemate', cursive !important;
+  font-family: 'Laila', serif !important;
   color: #FFF !important;
 }
 
 /* line 21, /home/xt/Documentos/nasa/wht/app/assets/stylesheets/base/reset.css.scss */
 p {
-  font-family: 'Stalemate', cursive !important;
+  font-family: 'Laila', serif !important;
   color: #FFF !important;
 }
 
@@ -36,12 +56,6 @@ a {
 a:hover {
   color: #92A0E3 !important;
 }
-/* line 2, /home/xt/Documentos/nasa/wht/app/assets/stylesheets/layout/main.css.scss */
-#f164601e918899e {
-  -webkit-border-radius: 10px !important;
-  -moz-border-radius: 10px !important;
-  border-radius: 10px !important;
-}
 .col-centered{
     display:inline-block !important;
     float:none !important;
@@ -50,50 +64,27 @@ a:hover {
     /* inline-block space fix */
     margin-right:-4px !important;
 }
+.mg-bottom-none{
+  margin-bottom: 0;
+}
 .mg-top-bottom{
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 1, /home/xt/Documentos/nasa/wht/app/assets/stylesheets/scaffolds.scss */
-#notice {
-  color: green;
+.bg-color-title{
+  background-color: #032840 !important;
 }
-
-/* line 5, /home/xt/Documentos/nasa/wht/app/assets/stylesheets/scaffolds.scss */
-.field_with_errors {
-  padding: 2px;
-  background-color: red;
-  display: table;
+.bg-color-item{
+  background-color: #1F5171 !important;
 }
-
-/* line 11, /home/xt/Documentos/nasa/wht/app/assets/stylesheets/scaffolds.scss */
-#error_explanation {
-  width: 450px;
-  border: 2px solid red;
-  padding: 7px;
-  padding-bottom: 0;
-  margin-bottom: 20px;
-  background-color: #f0f0f0;
-}
-/* line 18, /home/xt/Documentos/nasa/wht/app/assets/stylesheets/scaffolds.scss */
-#error_explanation h2 {
-  text-align: left;
-  font-weight: bold;
-  padding: 5px 5px 5px 15px;
-  font-size: 12px;
-  margin: -7px;
-  margin-bottom: 0px;
-  background-color: #c00;
-  color: #fff;
-}
-/* line 28, /home/xt/Documentos/nasa/wht/app/assets/stylesheets/scaffolds.scss */
-#error_explanation ul li {
-  font-size: 12px;
-  list-style: square;
+.border-item{
+  border: 1px solid #55819D !important;
 }
 /* line 4, /home/xt/Documentos/nasa/wht/app/assets/stylesheets/welcome.scss */
-#title-main {
-  font-size: 55px;
+.p_style {
+  font-family: 'Laila', serif !important;
+  font-size: 15px !important;
+  text-align: center;
 }
 
 /*
@@ -108,6 +99,9 @@ a:hover {
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+
+
+
 
 
  */
