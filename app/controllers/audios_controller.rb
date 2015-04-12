@@ -6,6 +6,10 @@ class AudiosController < ApplicationController
     @audios = Audio.all
   end
 
+  def list
+    @audios = current_user.audios
+  end
+
   def show
   end
 
@@ -18,8 +22,8 @@ class AudiosController < ApplicationController
   end
 
   def create
-    @audio = Audio.new(audio_params,current_user.id)
-
+    @audio = Audio.new(audio_params)
+    @audio.user_id = current_user.id
     respond_to do |format|
       if @audio.save
         format.html { redirect_to @audio, notice: 'Audio was successfully created.' }

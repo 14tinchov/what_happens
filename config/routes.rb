@@ -10,6 +10,9 @@ Rails.application.routes.draw do
 
   resources :users do
     resources :audios do
+      collection do
+        get 'list', to: 'audios#list'
+      end
     end
   end
 

@@ -1,5 +1,1 @@
-<% if user_signed_in? %>
-  <%= render 'authenticate' %>
-<% else %>
-  <%= render 'no_authenticate', :locals => { :audios => @audios } %>
-<% end %>
+<%= render 'authenticate' , :locals => { :audios => @audios }  %>
