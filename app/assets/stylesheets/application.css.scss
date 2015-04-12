@@ -10,8 +10,8 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require base/reset.css
  *= require layout/main.css
+ *= require base/reset.css
  *= require module/rules.css
  *= require welcome
  *= require_self
